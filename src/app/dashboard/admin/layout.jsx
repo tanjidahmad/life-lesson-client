@@ -1,18 +1,4 @@
-// import AdminSidebar from "@/components/dashboard/admin/AdminSidebar";
 
-// export default function AdminLayout({
-//   children,
-// }) {
-//   return (
-//     <div className="flex min-h-screen bg-zinc-950">
-//       <AdminSidebar />
-
-//       <main className="flex-1 p-6">
-//         {children}
-//       </main>
-//     </div>
-//   );
-// }
 
 import { redirect } from "next/navigation";
 import { getUserSession } from "@/lib/core/session";
