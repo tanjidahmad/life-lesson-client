@@ -1,21 +1,4 @@
-// import { getUserSession } from "@/lib/core/session";
-// import AdminProfileCard from "@/components/dashboard/admin/AdminProfileCard";
 
-// export default async function AdminProfilePage() {
-//   const user = await getUserSession();
-
-//   return (
-//     <div>
-//       <h1 className="mb-8 text-4xl font-bold text-white">
-//         Admin Profile
-//       </h1>
-
-//       <AdminProfileCard
-//         user={user}
-//       />
-//     </div>
-//   );
-// }
 
 import { getUserSession } from "@/lib/core/session";
 import AdminProfileCard from "@/components/dashboard/admin/AdminProfileCard";
