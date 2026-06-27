@@ -1,7 +1,7 @@
 import { stripe } from "@/lib/stripe";
 import { redirect } from 'next/navigation';
 import Link from 'next/link';
-// Gravity UI Icons for a high-quality production finish
+
 import { CircleCheckFill, Envelope, ArrowLeft } from '@gravity-ui/icons';
 import { createSubscription } from '@/lib/actions/subscriptions';
 
