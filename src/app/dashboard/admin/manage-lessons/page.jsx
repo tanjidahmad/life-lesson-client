@@ -1,34 +1,3 @@
-// import { serverFetch } from "@/lib/core/server";
-// import ManageLessonsTable from "@/components/dashboard/admin/ManageLessonsTable";
-
-// export default async function ManageLessonsPage() {
-//    const lessons =
-//     await serverFetch("/api/lessons");
-// // const lessons =
-// //   await serverFetch(
-// //     "/api/admin/lessons"
-// //   );
-//   const stats =
-//     await serverFetch(
-//       "/api/admin/lesson-stats"
-//     );
-
-//   return (
-//     <div>
-//       <h1 className="mb-8 text-4xl font-bold text-white">
-//         Manage Lessons
-//       </h1>
-
-//       {/* Stats Cards */}
-
-//       {/* Lessons Table */}
-//       <ManageLessonsTable
-//         lessons={lessons.lessons}
-//       />
-      
-//     </div>
-//   );
-// }
 
 import { serverFetch } from "@/lib/core/server";
 import ManageLessonsTable from "@/components/dashboard/admin/ManageLessonsTable";
